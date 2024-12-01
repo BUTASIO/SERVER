@@ -1,0 +1,372 @@
+[01Dec2024 04:45:19.744] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
+[01Dec2024 04:45:19.746] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[01Dec2024 04:45:19.747] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.2 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[01Dec2024 04:45:19.830] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[01Dec2024 04:45:19.943] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/SERVER/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[01Dec2024 04:45:20.155] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[01Dec2024 04:45:20.894] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
+[01Dec2024 04:45:21.188] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/SERVER/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/SERVER/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/SERVER/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/SERVER/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[01Dec2024 04:45:21.306] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/SERVER/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/SERVER/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/SERVER/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/SERVER/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[01Dec2024 04:45:26.298] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 53.0.25, for MC 1.21.3 with MCP 20241025.112443
+[01Dec2024 04:45:26.299] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v53.0.25 Initialized
+[01Dec2024 04:45:26.317] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[01Dec2024 04:45:27.102] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Dec2024 04:45:27.527] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 53.0.25 Target: 53.0.25
+[01Dec2024 04:45:28.142] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01Dec2024 04:45:30.750] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1337 recipes
+[01Dec2024 04:45:30.769] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1448 advancements
+[01Dec2024 04:45:30.916] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.3
+[01Dec2024 04:45:30.916] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Dec2024 04:45:30.917] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Dec2024 04:45:30.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Dec2024 04:45:31.025] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Dec2024 04:45:31.073] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[01Dec2024 04:45:31.123] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01Dec2024 04:45:31.123] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01Dec2024 04:45:31.124] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01Dec2024 04:45:31.124] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01Dec2024 04:45:31.170] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Dec2024 04:45:31.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Dec2024 04:45:31.466] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 04:45:31.548] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 228 ms
+[01Dec2024 04:45:31.549] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.413s)! For help, type "help"
+[01Dec2024 04:45:31.562] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[01Dec2024 04:45:36.742] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AugustoButiDMC[/[::1]:35572] logged in with entity id 2 at (0.5, 61.0, 0.5)
+[01Dec2024 04:45:36.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC joined the game
+[01Dec2024 04:45:43.233] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:35580] logged in with entity id 4 at (0.5, 61.0, 0.5)
+[01Dec2024 04:45:43.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:45:46.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> no rompan
+[01Dec2024 04:45:47.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> no rompan
+[01Dec2024 04:45:48.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> no rompan
+[01Dec2024 04:45:49.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> a
+[01Dec2024 04:45:50.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> no rompan
+[01Dec2024 04:45:54.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> va
+[01Dec2024 04:46:00.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:01.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:02.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:02.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> no hay pvp no?
+[01Dec2024 04:46:14.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> no
+[01Dec2024 04:46:14.671] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leonel21331[/[::1]:49596] logged in with entity id 8 at (0.5, 61.0, 0.5)
+[01Dec2024 04:46:14.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 joined the game
+[01Dec2024 04:46:18.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:18.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:19.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:19.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:23.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:25.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:26.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:27.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:29.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:45.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> el q rompe se lo kachan todos
+[01Dec2024 04:46:46.533] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Addry_[/[::1]:55750] logged in with entity id 10 at (0.5, 61.0, 0.5)
+[01Dec2024 04:46:46.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ joined the game
+[01Dec2024 04:46:50.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> XD
+[01Dec2024 04:46:50.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> XD
+[01Dec2024 04:46:52.414] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ was kicked for floating too long!
+[01Dec2024 04:46:52.415] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:46:52.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 04:46:52.464] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[01Dec2024 04:46:53.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> AHJKSFHAJKSFHK+
+[01Dec2024 04:46:56.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> ROMPAN XD
+[01Dec2024 04:46:57.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> SE CAYO POR ADDRY
+[01Dec2024 04:47:02.073] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:59934] logged in with entity id 14 at (0.979943934223998, -127.61295510028846, 0.39624477169043454)
+[01Dec2024 04:47:02.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:47:05.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ fell out of the world
+[01Dec2024 04:47:12.468] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jp_alexander_10[/[::1]:51218] logged in with entity id 24 at (1.5, 61.0, 0.5)
+[01Dec2024 04:47:12.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 joined the game
+[01Dec2024 04:47:23.065] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 was kicked for floating too long!
+[01Dec2024 04:47:23.114] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 lost connection: Flying is not enabled on this server
+[01Dec2024 04:47:23.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 left the game
+[01Dec2024 04:47:24.240] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: orpoteaM25[/[::1]:56686] logged in with entity id 31 at (0.5, 61.0, 0.5)
+[01Dec2024 04:47:24.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: orpoteaM25 joined the game
+[01Dec2024 04:47:27.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> AugustoButiDMC pon contador de muertes
+[01Dec2024 04:47:27.811] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jp_alexander_10[/[::1]:56694] logged in with entity id 32 at (0.3414558893422816, -97.13089557593906, -1.0668509488472193)
+[01Dec2024 04:47:27.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 joined the game
+[01Dec2024 04:47:32.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 fell out of the world
+[01Dec2024 04:47:37.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> ponlo como suelo
+[01Dec2024 04:47:39.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> la mesa
+[01Dec2024 04:47:40.314] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 was kicked for floating too long!
+[01Dec2024 04:47:40.364] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 lost connection: Flying is not enabled on this server
+[01Dec2024 04:47:40.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 left the game
+[01Dec2024 04:47:44.439] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jp_alexander_10[/[::1]:38998] logged in with entity id 52 at (-2.7157072474030794, -104.40554363841729, -0.7152942279495272)
+[01Dec2024 04:47:44.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 joined the game
+[01Dec2024 04:47:48.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 fell out of the world
+[01Dec2024 04:47:57.800] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: HERBERPRO[/[::1]:57870] logged in with entity id 81 at (-0.5, 61.0, 0.5)
+[01Dec2024 04:47:57.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO joined the game
+[01Dec2024 04:47:58.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> XD
+[01Dec2024 04:47:59.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> ey
+[01Dec2024 04:48:00.014] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ was kicked for floating too long!
+[01Dec2024 04:48:00.064] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:00.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 04:48:03.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jp_alexander_10> xd
+[01Dec2024 04:48:08.489] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:59514] logged in with entity id 86 at (0.12573849025034364, -80.07371160409113, 0.975880085292239)
+[01Dec2024 04:48:08.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:48:11.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> PENDEJO
+[01Dec2024 04:48:11.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> no tiren
+[01Dec2024 04:48:12.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> xdd
+[01Dec2024 04:48:13.115] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ was kicked for floating too long!
+[01Dec2024 04:48:13.164] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:13.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 04:48:13.364] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC was kicked for floating too long!
+[01Dec2024 04:48:13.414] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:13.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC left the game
+[01Dec2024 04:48:14.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> QUIEN FUE
+[01Dec2024 04:48:14.895] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO moved too quickly! 0.0,-21.81521379209127,0.0
+[01Dec2024 04:48:16.922] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO was kicked for floating too long!
+[01Dec2024 04:48:16.964] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:16.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO left the game
+[01Dec2024 04:48:17.850] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AugustoButiDMC[/[::1]:47062] logged in with entity id 93 at (0.1578692785878838, -132.8166785098648, -1.2347587482061846)
+[01Dec2024 04:48:17.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC joined the game
+[01Dec2024 04:48:19.652] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:47064] logged in with entity id 101 at (0.12573849025034364, -255.39287937476405, 0.975880085292239)
+[01Dec2024 04:48:19.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:48:19.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ fell out of the world
+[01Dec2024 04:48:19.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC fell out of the world
+[01Dec2024 04:48:23.328] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: HERBERPRO[/[::1]:56138] logged in with entity id 116 at (1.914757790000043, -4.757565360663978, -0.7927522774054949)
+[01Dec2024 04:48:23.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO joined the game
+[01Dec2024 04:48:27.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> HIJO DEPUTA
+[01Dec2024 04:48:27.614] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ was kicked for floating too long!
+[01Dec2024 04:48:27.664] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:27.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 04:48:28.116] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO was kicked for floating too long!
+[01Dec2024 04:48:28.167] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:28.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO left the game
+[01Dec2024 04:48:29.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leonel21331 was kicked for floating too long!
+[01Dec2024 04:48:29.164] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leonel21331 lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:29.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 left the game
+[01Dec2024 04:48:31.500] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: HERBERPRO[/[::1]:56152] logged in with entity id 134 at (1.914757790000043, -193.17524380367303, -0.7927522774054949)
+[01Dec2024 04:48:31.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO joined the game
+[01Dec2024 04:48:32.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
+[01Dec2024 04:48:33.401] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:52810] logged in with entity id 135 at (3.2137699208997583, -101.83340857907594, 1.6302019621878887)
+[01Dec2024 04:48:33.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:48:37.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ fell out of the world
+[01Dec2024 04:48:39.548] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leonel21331[/[::1]:52844] logged in with entity id 138 at (1.2663119276641823, -127.61295510028846, 2.0456859554243714)
+[01Dec2024 04:48:39.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 joined the game
+[01Dec2024 04:48:42.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 fell out of the world
+[01Dec2024 04:48:43.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> tamare
+[01Dec2024 04:48:44.365] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: orpoteaM25 was kicked for floating too long!
+[01Dec2024 04:48:44.415] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: orpoteaM25 lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:44.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: orpoteaM25 left the game
+[01Dec2024 04:48:49.420] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: orpoteaM25[/[::1]:50588] logged in with entity id 145 at (1.4231184466765274, -101.83340857907594, 0.5431192820791727)
+[01Dec2024 04:48:49.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: orpoteaM25 joined the game
+[01Dec2024 04:48:50.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> PENDEJO TeNIA MADERA
+[01Dec2024 04:48:52.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> no voten pe
+[01Dec2024 04:48:53.014] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Addry_ was kicked for floating too long!
+[01Dec2024 04:48:53.064] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Addry_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:53.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ left the game
+[01Dec2024 04:48:53.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: orpoteaM25 fell out of the world
+[01Dec2024 04:48:54.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> ey
+[01Dec2024 04:48:55.864] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ was kicked for floating too long!
+[01Dec2024 04:48:55.914] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:55.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 04:48:57.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> DESACTIVEN PVVP
+[01Dec2024 04:49:01.100] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Addry_[/[::1]:45082] logged in with entity id 152 at (-0.5355715357039337, -130.89669973311842, 0.358807394940525)
+[01Dec2024 04:49:01.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ joined the game
+[01Dec2024 04:49:02.914] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO was kicked for floating too long!
+[01Dec2024 04:49:02.964] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:02.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO left the game
+[01Dec2024 04:49:03.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> tenia un cubo de agua pendejos
+[01Dec2024 04:49:03.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ fell out of the world
+[01Dec2024 04:49:04.347] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:50464] logged in with entity id 160 at (1.2326342644439647, -86.2704982387445, 0.9850082906476254)
+[01Dec2024 04:49:04.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:49:06.227] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: HERBERPRO[/[::1]:50468] logged in with entity id 163 at (6.958226042917219, -101.83340857907594, 7.625267025196755)
+[01Dec2024 04:49:06.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO joined the game
+[01Dec2024 04:49:07.434] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jxvilla_[/[::1]:50494] logged in with entity id 164 at (-0.5, 61.0, 0.5)
+[01Dec2024 04:49:07.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ joined the game
+[01Dec2024 04:49:08.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> IDIOTAS
+[01Dec2024 04:49:08.814] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ was kicked for floating too long!
+[01Dec2024 04:49:08.864] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:08.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 04:49:10.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
+[01Dec2024 04:49:20.592] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:58616] logged in with entity id 174 at (1.2326342644439647, -251.2315024766734, 0.9850082906476254)
+[01Dec2024 04:49:20.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:49:20.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ fell out of the world
+[01Dec2024 04:49:31.064] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Addry_ was kicked for floating too long!
+[01Dec2024 04:49:31.114] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Addry_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:31.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ left the game
+[01Dec2024 04:49:33.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> ORPO PQ ROMPES
+[01Dec2024 04:49:33.264] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC was kicked for floating too long!
+[01Dec2024 04:49:33.314] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:33.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC left the game
+[01Dec2024 04:49:35.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 was kicked for floating too long!
+[01Dec2024 04:49:35.164] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:35.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 left the game
+[01Dec2024 04:49:38.016] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Addry_[/[::1]:51670] logged in with entity id 185 at (0.618698737623897, -108.19263605860135, 2.425174069020142)
+[01Dec2024 04:49:38.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ joined the game
+[01Dec2024 04:49:39.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jxvilla_ was kicked for floating too long!
+[01Dec2024 04:49:39.164] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jxvilla_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:39.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ left the game
+[01Dec2024 04:49:39.713] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jp_alexander_10[/[::1]:51688] logged in with entity id 186 at (5.463328840566998, -108.19263605860135, -2.869201227319146)
+[01Dec2024 04:49:39.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 joined the game
+[01Dec2024 04:49:41.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> ORPO ESTA ROMPEIDNO
+[01Dec2024 04:49:42.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ fell out of the world
+[01Dec2024 04:49:43.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 fell out of the world
+[01Dec2024 04:49:45.015] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: orpoteaM25 was kicked for floating too long!
+[01Dec2024 04:49:45.064] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: orpoteaM25 lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:45.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: orpoteaM25 left the game
+[01Dec2024 04:49:48.918] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: prueba2Tlauncher[/[::1]:33970] logged in with entity id 200 at (0.5, 61.0, -0.5)
+[01Dec2024 04:49:48.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: prueba2Tlauncher joined the game
+[01Dec2024 04:49:49.628] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: orpoteaM25[/[::1]:34000] logged in with entity id 202 at (0.9035588305999224, -140.22327173792834, 1.5780819306241882)
+[01Dec2024 04:49:49.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: orpoteaM25 joined the game
+[01Dec2024 04:49:49.914] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jxvilla_[/[::1]:34014] logged in with entity id 203 at (0.7781496495196655, -86.2079982387445, 2.3992344863663946)
+[01Dec2024 04:49:49.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ joined the game
+[01Dec2024 04:49:51.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: orpoteaM25 fell out of the world
+[01Dec2024 04:49:54.314] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jxvilla_ was kicked for floating too long!
+[01Dec2024 04:49:54.364] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jxvilla_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:54.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ left the game
+[01Dec2024 04:49:56.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> ORPO ESTA ROMPIENDO
+[01Dec2024 04:49:56.473] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: prueba2Tlauncher moved wrongly!
+[01Dec2024 04:49:56.565] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leonel21331 was kicked for floating too long!
+[01Dec2024 04:49:56.615] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leonel21331 lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:56.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 left the game
+[01Dec2024 04:49:56.864] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Addry_ was kicked for floating too long!
+[01Dec2024 04:49:56.915] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Addry_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:56.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ left the game
+[01Dec2024 04:49:59.685] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ moved too quickly! 0.0,-18.188965084838074,0.0
+[01Dec2024 04:50:00.564] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ was kicked for floating too long!
+[01Dec2024 04:50:00.614] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:50:00.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 04:50:00.778] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leonel21331[/[::1]:56126] logged in with entity id 215 at (0.9874155636380529, -83.13224017721774, -2.1532626038747593)
+[01Dec2024 04:50:00.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 joined the game
+[01Dec2024 04:50:01.107] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jxvilla_[/[::1]:56132] logged in with entity id 216 at (0.7781496495196655, -247.62700783781196, 2.3992344863663946)
+[01Dec2024 04:50:01.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ joined the game
+[01Dec2024 04:50:01.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ fell out of the world
+[01Dec2024 04:50:01.314] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 was kicked for floating too long!
+[01Dec2024 04:50:01.364] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 lost connection: Flying is not enabled on this server
+[01Dec2024 04:50:01.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 left the game
+[01Dec2024 04:50:01.814] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: prueba2Tlauncher was kicked for floating too long!
+[01Dec2024 04:50:01.864] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: prueba2Tlauncher lost connection: Flying is not enabled on this server
+[01Dec2024 04:50:01.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: prueba2Tlauncher left the game
+[01Dec2024 04:50:04.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> DEJEN DE ROMPES
+[01Dec2024 04:50:04.812] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Addry_[/[::1]:60818] logged in with entity id 218 at (1.0472844852438077, -101.83340857907594, -0.4716272816113444)
+[01Dec2024 04:50:04.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ joined the game
+[01Dec2024 04:50:04.852] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jp_alexander_10[/[::1]:60806] logged in with entity id 219 at (0.510163293239266, -127.31295510028846, 1.4353710775100637)
+[01Dec2024 04:50:04.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 joined the game
+[01Dec2024 04:50:05.215] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leonel21331 was kicked for floating too long!
+[01Dec2024 04:50:05.264] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leonel21331 lost connection: Flying is not enabled on this server
+[01Dec2024 04:50:05.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 left the game
+[01Dec2024 04:50:05.981] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: prueba2Tlauncher[/[::1]:60834] logged in with entity id 220 at (2.829091993590476, -111.09438669269659, -1.8242110015472772)
+[01Dec2024 04:50:05.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: prueba2Tlauncher joined the game
+[01Dec2024 04:50:06.764] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:60842] logged in with entity id 221 at (0.8379057227524866, -86.59558523106475, -0.024303354961128322)
+[01Dec2024 04:50:06.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:50:07.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 fell out of the world
+[01Dec2024 04:50:08.853] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AugustoButiDMC[/[::1]:60856] logged in with entity id 224 at (1.4303836554726341, -65.05207208453308, 2.0365185645232557)
+[01Dec2024 04:50:08.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC joined the game
+[01Dec2024 04:50:09.002] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leonel21331[/[::1]:60862] logged in with entity id 225 at (0.9874155636380529, -245.96323032361843, -2.1532626038747593)
+[01Dec2024 04:50:09.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 joined the game
+[01Dec2024 04:50:09.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 fell out of the world
+[01Dec2024 04:50:09.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ fell out of the world
+[01Dec2024 04:50:09.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: prueba2Tlauncher fell out of the world
+[01Dec2024 04:50:11.214] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ was kicked for floating too long!
+[01Dec2024 04:50:11.270] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:50:11.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 04:50:13.464] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC was kicked for floating too long!
+[01Dec2024 04:50:13.514] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC lost connection: Flying is not enabled on this server
+[01Dec2024 04:50:13.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC left the game
+[01Dec2024 04:50:13.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> OE Q IDIOTA ROMPE LA MIERDA
+[01Dec2024 04:50:19.701] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:50718] logged in with entity id 235 at (0.8379057227524866, -249.42657537746544, -0.024303354961128322)
+[01Dec2024 04:50:19.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:50:19.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ fell out of the world
+[01Dec2024 04:50:26.963] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AugustoButiDMC[/[::1]:59354] logged in with entity id 244 at (1.4303836554726341, -244.28174010165344, 2.0365185645232557)
+[01Dec2024 04:50:26.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC joined the game
+[01Dec2024 04:50:27.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC fell out of the world
+[01Dec2024 04:50:28.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> NO SABEN PONER
+[01Dec2024 04:50:34.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> HAGAN LOSAS
+[01Dec2024 04:50:43.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> el que rompa ban
+[01Dec2024 04:50:46.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> addry no etoy invitado el evento a bewwaars :(
+[01Dec2024 04:50:55.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA BAN
+[01Dec2024 04:51:02.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> no me voten
+[01Dec2024 04:51:04.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> tengo semilla
+[01Dec2024 04:51:05.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jxvilla_> con slab pongan suelo
+[01Dec2024 04:51:18.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> no maten a la polla
+[01Dec2024 04:51:30.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> CUIDENLA
+[01Dec2024 04:51:50.609] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Astrom32[/[::1]:46242] logged in with entity id 312 at (5.5, 61.0, 0.5)
+[01Dec2024 04:51:50.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Astrom32 joined the game
+[01Dec2024 04:51:51.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> no la tiren
+[01Dec2024 04:51:59.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> YA TIRARON EL AGUA Q MAS QUERES
+[01Dec2024 04:52:04.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> ya ta
+[01Dec2024 04:52:04.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> el mismo dueño la tira
+[01Dec2024 04:52:08.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> addry no estoy invitado en el evento de bewwars :(
+[01Dec2024 04:52:19.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <prueba2Tlauncher> que uno chambe y todos construyen
+[01Dec2024 04:52:22.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> y ese autoclick
+[01Dec2024 04:52:28.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <prueba2Tlauncher> yo chambeo
+[01Dec2024 04:52:33.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> yo chambeo
+[01Dec2024 04:52:41.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <prueba2Tlauncher> solo 2
+[01Dec2024 04:52:41.916] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Light7 (/[::1]:41660) lost connection: Timed out
+[01Dec2024 04:52:46.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jxvilla_> addry de cuantas personas en team es el evento de bedwars
+[01Dec2024 04:52:50.491] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Light7[/[::1]:38208] logged in with entity id 345 at (0.5, 61.0, -3.5)
+[01Dec2024 04:52:50.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 joined the game
+[01Dec2024 04:52:54.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> OE
+[01Dec2024 04:52:55.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> LA VACA
+[01Dec2024 04:52:55.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> no la VOTEN
+[01Dec2024 04:52:57.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> YA PE
+[01Dec2024 04:53:01.068] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@38b342e3[id=50d0ae01-144f-398f-9b4a-1aa57a020e64,name=Light7,properties={}] lost connection: Timed out
+[01Dec2024 04:53:04.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> EL PRUEBA2
+[01Dec2024 04:53:07.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> FUE PRUEBA2
+[01Dec2024 04:53:09.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> VOTENLO
+[01Dec2024 04:53:14.164] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: prueba2Tlauncher lost connection: You are banned from this server
+[01Dec2024 04:53:14.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: prueba2Tlauncher left the game
+[01Dec2024 04:53:16.615] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting prueba2Tlauncher (/[::1]:60810): You are banned from this server.
+Reason: Banned by an operator.
+[01Dec2024 04:53:16.616] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: prueba2Tlauncher (/[::1]:60810) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[01Dec2024 04:53:16.665] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[01Dec2024 04:53:24.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> astrom
+[01Dec2024 04:53:27.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> me salgo de tu torneo a
+[01Dec2024 04:53:29.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> ya pee
+[01Dec2024 04:53:31.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> las semillas
+[01Dec2024 04:53:33.515] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting prueba2Tlauncher (/[::1]:41880): You are banned from this server.
+Reason: Banned by an operator.
+[01Dec2024 04:53:33.516] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: prueba2Tlauncher (/[::1]:41880) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[01Dec2024 04:53:33.565] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[01Dec2024 04:53:34.864] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Addry_ was kicked for floating too long!
+[01Dec2024 04:53:34.915] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Addry_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:53:34.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ left the game
+[01Dec2024 04:53:40.664] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 was kicked for floating too long!
+[01Dec2024 04:53:40.714] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 lost connection: Flying is not enabled on this server
+[01Dec2024 04:53:40.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 left the game
+[01Dec2024 04:53:44.129] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jp_alexander_10[/[::1]:59376] logged in with entity id 400 at (-13.224376587544162, -132.8166785098648, 7.010640996922813)
+[01Dec2024 04:53:44.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 joined the game
+[01Dec2024 04:53:46.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 fell out of the world
+[01Dec2024 04:53:49.265] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting prueba2Tlauncher (/[::1]:59412): You are banned from this server.
+Reason: Banned by an operator.
+[01Dec2024 04:53:49.265] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: prueba2Tlauncher (/[::1]:59412) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[01Dec2024 04:53:49.315] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[01Dec2024 04:53:50.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> ya pe
+[01Dec2024 04:53:50.314] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jxvilla_ lost connection: You logged in from another location
+[01Dec2024 04:53:50.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ left the game
+[01Dec2024 04:53:51.352] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jxvilla_[/[::1]:59426] logged in with entity id 412 at (0.7010953475215862, 61.0, -4.4962825340045764)
+[01Dec2024 04:53:51.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ joined the game
+[01Dec2024 04:53:52.111] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Addry_[/[::1]:45882] logged in with entity id 413 at (-0.9588156316093728, -127.61295510028846, -1.4173102381716587)
+[01Dec2024 04:53:52.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ joined the game
+[01Dec2024 04:53:55.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ fell out of the world
+[01Dec2024 04:53:56.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> ahora pe
+[01Dec2024 04:53:58.165] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Astrom32 was kicked for floating too long!
+[01Dec2024 04:53:58.215] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Astrom32 lost connection: Flying is not enabled on this server
+[01Dec2024 04:53:58.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Astrom32 left the game
+[01Dec2024 04:54:07.202] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Astrom32[/[::1]:41996] logged in with entity id 437 at (1.8139406659267157, -132.8166785098648, -3.100609428940522)
+[01Dec2024 04:54:07.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Astrom32 joined the game
+[01Dec2024 04:54:09.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Astrom32 fell out of the world
+[01Dec2024 04:54:09.648] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Astrom32 moved too quickly! 0.0,-13.13593262191668,0.0
+[01Dec2024 04:54:12.215] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 was kicked for floating too long!
+[01Dec2024 04:54:12.264] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 lost connection: Flying is not enabled on this server
+[01Dec2024 04:54:12.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 left the game
+[01Dec2024 04:54:14.815] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting prueba2Tlauncher (/[::1]:49670): You are banned from this server.
+Reason: Banned by an operator.
+[01Dec2024 04:54:14.816] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: prueba2Tlauncher (/[::1]:49670) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[01Dec2024 04:54:14.867] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[01Dec2024 04:54:15.534] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jp_alexander_10[/[::1]:49658] logged in with entity id 458 at (-0.04958830112491992, -101.83340857907594, 0.7582634646919737)
+[01Dec2024 04:54:15.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 joined the game
+[01Dec2024 04:54:19.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 fell out of the world
+[01Dec2024 04:54:30.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jxvilla_> Addry_ en el evento de bedwars de cuantas personas en team se puede
+[01Dec2024 04:54:32.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> tamare
+[01Dec2024 04:54:45.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> el q consiga agua que me la de para las semillas
+[01Dec2024 04:55:15.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> oe Jp_alexander_10
+[01Dec2024 04:55:17.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> OE
+[01Dec2024 04:55:20.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jp_alexander_10> Q
+[01Dec2024 04:55:20.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> LIGHT MATO UNA OVEAJ
+[01Dec2024 04:55:23.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> buti
+[01Dec2024 04:55:23.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> BUTI
+[01Dec2024 04:55:24.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> damela

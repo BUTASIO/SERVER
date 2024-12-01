@@ -1,0 +1,1307 @@
+[01Dec2024 04:45:19.744] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
+[01Dec2024 04:45:19.746] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[01Dec2024 04:45:19.747] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.2 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[01Dec2024 04:45:19.763] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [forge_userdev_client,forge_dev_data,minecraft,forge_userdev_server_gametest,forge_dev_client,forge_userdev_data,forge_dev_server_gametest,testharness,forge_userdev_server,forge_client,forge_dev_server,forge_server]
+[01Dec2024 04:45:19.771] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[01Dec2024 04:45:19.783] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[01Dec2024 04:45:19.791] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[01Dec2024 04:45:19.793] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/SERVER/servidor_minecraft
+[01Dec2024 04:45:19.793] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/SERVER/servidor_minecraft/mods
+[01Dec2024 04:45:19.794] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/SERVER/servidor_minecraft/config
+[01Dec2024 04:45:19.794] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/SERVER/servidor_minecraft/config/fml.toml
+[01Dec2024 04:45:19.830] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[01Dec2024 04:45:19.861] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer service: fml: /
+[01Dec2024 04:45:19.862] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer service: mixin: /
+[01Dec2024 04:45:19.863] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[01Dec2024 04:45:19.863] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[01Dec2024 04:45:19.863] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[01Dec2024 04:45:19.863] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[01Dec2024 04:45:19.873] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Detected version data : VersionInfo[forgeVersion=53.0.25, mcVersion=1.21.3, mcpVersion=20241025.112443, forgeGroup=net.minecraftforge]
+[01Dec2024 04:45:19.874] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 53.0.25
+[01Dec2024 04:45:19.874] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 53.0.25 loading
+[01Dec2024 04:45:19.874] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ModLauncher version: 10.2.2
+[01Dec2024 04:45:19.874] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found AccessTransformer version: 8.2.0
+[01Dec2024 04:45:19.874] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found EventBus version: 6.2.8
+[01Dec2024 04:45:19.874] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found RuntimeDistCleaner version: 53.0.25
+[01Dec2024 04:45:19.876] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.2.1
+[01Dec2024 04:45:19.876] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI version: 7.1.5
+[01Dec2024 04:45:19.876] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[01Dec2024 04:45:19.877] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[01Dec2024 04:45:19.881] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[01Dec2024 04:45:19.882] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[01Dec2024 04:45:19.930] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in SecureModuleClassLoader[SECURE-BOOTSTRAP]@1295083508
+[01Dec2024 04:45:19.943] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/SERVER/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[01Dec2024 04:45:19.946] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[01Dec2024 04:45:19.947] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[01Dec2024 04:45:19.947] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[01Dec2024 04:45:19.948] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[01Dec2024 04:45:19.948] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[01Dec2024 04:45:19.949] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[01Dec2024 04:45:19.951] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[01Dec2024 04:45:19.951] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[01Dec2024 04:45:19.951] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[01Dec2024 04:45:19.952] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/SERVER/servidor_minecraft
+[01Dec2024 04:45:19.952] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/SERVER/servidor_minecraft/mods
+[01Dec2024 04:45:19.952] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/SERVER/servidor_minecraft/config
+[01Dec2024 04:45:19.952] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/SERVER/servidor_minecraft/config/fml.toml
+[01Dec2024 04:45:19.953] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[01Dec2024 04:45:19.956] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[01Dec2024 04:45:19.958] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[01Dec2024 04:45:19.958] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forge_server as launch service
+[01Dec2024 04:45:19.963] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[01Dec2024 04:45:19.964] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[01Dec2024 04:45:19.964] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=net.minecraftforge.fml.loading.MCPNamingService@194152cf}
+[01Dec2024 04:45:19.964] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[01Dec2024 04:45:19.965] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[01Dec2024 04:45:19.966] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[01Dec2024 04:45:19.966] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[01Dec2024 04:45:19.966] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[01Dec2024 04:45:19.973] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(minecraft:null),(classpath:null),(forge_dev_locator:null),(forge_userdev_locator:null)
+[01Dec2024 04:45:19.974] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[01Dec2024 04:45:20.042] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.21.3-53.0.25-server.jar with {minecraft} mods - versions {1.21.3}
+[01Dec2024 04:45:20.111] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/SERVER/servidor_minecraft/libraries/net/minecraftforge/forge/1.21.3-53.0.25/forge-1.21.3-53.0.25-universal.jar
+[01Dec2024 04:45:20.118] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.21.3-53.0.25-universal.jar with {forge} mods - versions {53.0.25}
+[01Dec2024 04:45:20.126] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.21.3-53.0.25-server.jar, it does not contain dependency information.
+[01Dec2024 04:45:20.126] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.21.3-53.0.25-universal.jar, it does not contain dependency information.
+[01Dec2024 04:45:20.126] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.21.3-53.0.25.jar, it does not contain dependency information.
+[01Dec2024 04:45:20.127] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.21.3-53.0.25.jar, it does not contain dependency information.
+[01Dec2024 04:45:20.127] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.21.3-53.0.25.jar, it does not contain dependency information.
+[01Dec2024 04:45:20.127] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.21.3-53.0.25.jar, it does not contain dependency information.
+[01Dec2024 04:45:20.155] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[01Dec2024 04:45:20.158] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.21.3-53.0.25-server.jar with {minecraft} mods - versions {1.21.3}
+[01Dec2024 04:45:20.161] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/SERVER/servidor_minecraft/libraries/net/minecraftforge/forge/1.21.3-53.0.25/forge-1.21.3-53.0.25-server.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[01Dec2024 04:45:20.161] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/SERVER/servidor_minecraft/libraries/net/minecraftforge/forge/1.21.3-53.0.25/forge-1.21.3-53.0.25-universal.jar
+[01Dec2024 04:45:20.162] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.21.3-53.0.25-universal.jar with {forge} mods - versions {53.0.25}
+[01Dec2024 04:45:20.163] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/SERVER/servidor_minecraft/libraries/net/minecraftforge/forge/1.21.3-53.0.25/forge-1.21.3-53.0.25-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[01Dec2024 04:45:20.166] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[01Dec2024 04:45:20.166] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[01Dec2024 04:45:20.166] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod /coremods/field_to_method.js
+[01Dec2024 04:45:20.167] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod /coremods/method_redirector.js
+[01Dec2024 04:45:20.167] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[01Dec2024 04:45:20.184] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[01Dec2024 04:45:20.184] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[01Dec2024 04:45:20.185] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 53
+[01Dec2024 04:45:20.185] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 53.0.25
+[01Dec2024 04:45:20.187] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[01Dec2024 04:45:20.187] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[01Dec2024 04:45:20.187] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[01Dec2024 04:45:20.188] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements (0 mandatory, 0 optional)
+[01Dec2024 04:45:20.188] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[01Dec2024 04:45:20.426] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 39461 method mappings from methods.csv
+[01Dec2024 04:45:20.462] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 37374 field mappings from fields.csv
+[01Dec2024 04:45:20.477] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[01Dec2024 04:45:20.477] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[01Dec2024 04:45:20.478] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[01Dec2024 04:45:20.478] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[01Dec2024 04:45:20.478] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[01Dec2024 04:45:20.478] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from /coremods/field_to_method.js
+[01Dec2024 04:45:20.698] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[01Dec2024 04:45:20.700] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from /coremods/method_redirector.js
+[01Dec2024 04:45:20.836] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[01Dec2024 04:45:20.859] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6f231ced to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[01Dec2024 04:45:20.860] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4b4eced1 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[01Dec2024 04:45:20.861] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@71926a36 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[01Dec2024 04:45:20.861] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@216e9ca3 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[01Dec2024 04:45:20.861] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@75120e58 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[01Dec2024 04:45:20.862] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[01Dec2024 04:45:20.862] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[01Dec2024 04:45:20.862] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawner;} {} {V}
+[01Dec2024 04:45:20.862] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[01Dec2024 04:45:20.863] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[01Dec2024 04:45:20.863] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[01Dec2024 04:45:20.863] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[01Dec2024 04:45:20.863] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[01Dec2024 04:45:20.864] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[01Dec2024 04:45:20.864] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[01Dec2024 04:45:20.864] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[01Dec2024 04:45:20.865] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[01Dec2024 04:45:20.865] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[01Dec2024 04:45:20.866] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[01Dec2024 04:45:20.866] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[01Dec2024 04:45:20.866] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[01Dec2024 04:45:20.867] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[01Dec2024 04:45:20.867] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[01Dec2024 04:45:20.868] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[01Dec2024 04:45:20.869] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[01Dec2024 04:45:20.869] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[01Dec2024 04:45:20.869] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[01Dec2024 04:45:20.870] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@48976e6d to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[01Dec2024 04:45:20.870] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[01Dec2024 04:45:20.888] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[01Dec2024 04:45:20.888] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[01Dec2024 04:45:20.888] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixin.synthetic)
+[01Dec2024 04:45:20.889] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixin.synthetic)
+[01Dec2024 04:45:20.889] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixin.synthetic)
+[01Dec2024 04:45:20.889] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixin.synthetic)
+[01Dec2024 04:45:20.889] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixin.synthetic)
+[01Dec2024 04:45:20.890] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin.synthetic)]
+[01Dec2024 04:45:20.890] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[01Dec2024 04:45:20.890] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[01Dec2024 04:45:20.890] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[01Dec2024 04:45:20.890] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[01Dec2024 04:45:20.891] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[01Dec2024 04:45:20.891] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[01Dec2024 04:45:20.891] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(net.minecraftforge.forge)
+[01Dec2024 04:45:20.892] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(net.minecraftforge.forge)
+[01Dec2024 04:45:20.892] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(net.minecraftforge.forge)
+[01Dec2024 04:45:20.892] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(net.minecraftforge.forge)
+[01Dec2024 04:45:20.892] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(net.minecraftforge.forge)
+[01Dec2024 04:45:20.892] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.minecraftforge.forge)]
+[01Dec2024 04:45:20.893] [main/DEBUG] [mixin/]: inject() running with 4 agents
+[01Dec2024 04:45:20.893] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[01Dec2024 04:45:20.893] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin.synthetic)]
+[01Dec2024 04:45:20.893] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[01Dec2024 04:45:20.893] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.minecraftforge.forge)]
+[01Dec2024 04:45:20.894] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
+[01Dec2024 04:45:20.918] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[01Dec2024 04:45:21.001] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[01Dec2024 04:45:21.003] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[01Dec2024 04:45:21.004] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[01Dec2024 04:45:21.188] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/SERVER/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/SERVER/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/SERVER/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/SERVER/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[01Dec2024 04:45:21.215] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[01Dec2024 04:45:21.216] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[01Dec2024 04:45:21.221] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/stat
+[01Dec2024 04:45:21.224] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[01Dec2024 04:45:21.224] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[01Dec2024 04:45:21.225] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[01Dec2024 04:45:21.225] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[01Dec2024 04:45:21.225] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[01Dec2024 04:45:21.227] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[01Dec2024 04:45:21.227] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[01Dec2024 04:45:21.227] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[01Dec2024 04:45:21.227] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[01Dec2024 04:45:21.228] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[01Dec2024 04:45:21.228] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[01Dec2024 04:45:21.228] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[01Dec2024 04:45:21.228] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[01Dec2024 04:45:21.229] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[01Dec2024 04:45:21.229] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[01Dec2024 04:45:21.229] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[01Dec2024 04:45:21.230] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[01Dec2024 04:45:21.230] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[01Dec2024 04:45:21.230] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[01Dec2024 04:45:21.230] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[01Dec2024 04:45:21.230] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[01Dec2024 04:45:21.231] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[01Dec2024 04:45:21.231] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[01Dec2024 04:45:21.231] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[01Dec2024 04:45:21.231] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[01Dec2024 04:45:21.232] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[01Dec2024 04:45:21.232] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[01Dec2024 04:45:21.232] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[01Dec2024 04:45:21.232] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[01Dec2024 04:45:21.232] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[01Dec2024 04:45:21.232] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[01Dec2024 04:45:21.233] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[01Dec2024 04:45:21.233] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[01Dec2024 04:45:21.233] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[01Dec2024 04:45:21.233] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[01Dec2024 04:45:21.234] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[01Dec2024 04:45:21.234] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[01Dec2024 04:45:21.234] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[01Dec2024 04:45:21.234] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[01Dec2024 04:45:21.234] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[01Dec2024 04:45:21.235] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[01Dec2024 04:45:21.235] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[01Dec2024 04:45:21.235] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[01Dec2024 04:45:21.235] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[01Dec2024 04:45:21.237] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[01Dec2024 04:45:21.238] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[01Dec2024 04:45:21.239] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[01Dec2024 04:45:21.240] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[01Dec2024 04:45:21.240] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[01Dec2024 04:45:21.240] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[01Dec2024 04:45:21.240] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[01Dec2024 04:45:21.241] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[01Dec2024 04:45:21.243] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[01Dec2024 04:45:21.243] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[01Dec2024 04:45:21.245] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[01Dec2024 04:45:21.245] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[01Dec2024 04:45:21.246] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[01Dec2024 04:45:21.246] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[01Dec2024 04:45:21.246] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[01Dec2024 04:45:21.247] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[01Dec2024 04:45:21.247] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[01Dec2024 04:45:21.247] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[01Dec2024 04:45:21.248] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[01Dec2024 04:45:21.248] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[01Dec2024 04:45:21.248] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[01Dec2024 04:45:21.249] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[01Dec2024 04:45:21.249] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[01Dec2024 04:45:21.249] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[01Dec2024 04:45:21.249] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[01Dec2024 04:45:21.251] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[01Dec2024 04:45:21.251] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[01Dec2024 04:45:21.252] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[01Dec2024 04:45:21.252] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[01Dec2024 04:45:21.252] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[01Dec2024 04:45:21.252] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[01Dec2024 04:45:21.253] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[01Dec2024 04:45:21.253] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[01Dec2024 04:45:21.254] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[01Dec2024 04:45:21.254] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[01Dec2024 04:45:21.254] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[01Dec2024 04:45:21.255] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[01Dec2024 04:45:21.255] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[01Dec2024 04:45:21.256] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[01Dec2024 04:45:21.256] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[01Dec2024 04:45:21.257] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[01Dec2024 04:45:21.257] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[01Dec2024 04:45:21.258] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[01Dec2024 04:45:21.258] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[01Dec2024 04:45:21.258] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[01Dec2024 04:45:21.258] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[01Dec2024 04:45:21.259] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[01Dec2024 04:45:21.259] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[01Dec2024 04:45:21.260] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[01Dec2024 04:45:21.260] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[01Dec2024 04:45:21.260] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[01Dec2024 04:45:21.261] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
+[01Dec2024 04:45:21.261] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
+[01Dec2024 04:45:21.262] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
+[01Dec2024 04:45:21.262] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
+[01Dec2024 04:45:21.262] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
+[01Dec2024 04:45:21.262] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
+[01Dec2024 04:45:21.262] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
+[01Dec2024 04:45:21.263] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
+[01Dec2024 04:45:21.263] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
+[01Dec2024 04:45:21.263] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
+[01Dec2024 04:45:21.263] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
+[01Dec2024 04:45:21.263] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
+[01Dec2024 04:45:21.264] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
+[01Dec2024 04:45:21.264] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
+[01Dec2024 04:45:21.264] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
+[01Dec2024 04:45:21.264] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
+[01Dec2024 04:45:21.265] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
+[01Dec2024 04:45:21.265] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
+[01Dec2024 04:45:21.266] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
+[01Dec2024 04:45:21.269] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
+[01Dec2024 04:45:21.270] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
+[01Dec2024 04:45:21.270] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
+[01Dec2024 04:45:21.270] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
+[01Dec2024 04:45:21.270] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
+[01Dec2024 04:45:21.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
+[01Dec2024 04:45:21.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
+[01Dec2024 04:45:21.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
+[01Dec2024 04:45:21.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
+[01Dec2024 04:45:21.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
+[01Dec2024 04:45:21.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
+[01Dec2024 04:45:21.272] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
+[01Dec2024 04:45:21.273] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
+[01Dec2024 04:45:21.273] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
+[01Dec2024 04:45:21.274] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
+[01Dec2024 04:45:21.276] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
+[01Dec2024 04:45:21.276] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
+[01Dec2024 04:45:21.276] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
+[01Dec2024 04:45:21.276] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
+[01Dec2024 04:45:21.277] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
+[01Dec2024 04:45:21.277] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
+[01Dec2024 04:45:21.278] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[01Dec2024 04:45:21.278] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[01Dec2024 04:45:21.278] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[01Dec2024 04:45:21.278] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[01Dec2024 04:45:21.278] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[01Dec2024 04:45:21.279] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
+[01Dec2024 04:45:21.279] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
+[01Dec2024 04:45:21.279] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
+[01Dec2024 04:45:21.279] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
+[01Dec2024 04:45:21.280] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
+[01Dec2024 04:45:21.280] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
+[01Dec2024 04:45:21.280] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
+[01Dec2024 04:45:21.280] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
+[01Dec2024 04:45:21.280] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
+[01Dec2024 04:45:21.281] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
+[01Dec2024 04:45:21.281] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
+[01Dec2024 04:45:21.281] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
+[01Dec2024 04:45:21.281] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
+[01Dec2024 04:45:21.281] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
+[01Dec2024 04:45:21.282] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
+[01Dec2024 04:45:21.282] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
+[01Dec2024 04:45:21.282] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
+[01Dec2024 04:45:21.282] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
+[01Dec2024 04:45:21.282] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
+[01Dec2024 04:45:21.282] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
+[01Dec2024 04:45:21.283] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
+[01Dec2024 04:45:21.283] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
+[01Dec2024 04:45:21.283] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
+[01Dec2024 04:45:21.283] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
+[01Dec2024 04:45:21.283] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
+[01Dec2024 04:45:21.284] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
+[01Dec2024 04:45:21.284] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
+[01Dec2024 04:45:21.284] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
+[01Dec2024 04:45:21.284] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
+[01Dec2024 04:45:21.284] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
+[01Dec2024 04:45:21.284] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
+[01Dec2024 04:45:21.285] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
+[01Dec2024 04:45:21.285] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
+[01Dec2024 04:45:21.285] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
+[01Dec2024 04:45:21.285] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
+[01Dec2024 04:45:21.285] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
+[01Dec2024 04:45:21.285] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
+[01Dec2024 04:45:21.286] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
+[01Dec2024 04:45:21.286] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
+[01Dec2024 04:45:21.286] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
+[01Dec2024 04:45:21.288] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[01Dec2024 04:45:21.304] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[01Dec2024 04:45:21.306] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/SERVER/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/SERVER/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/SERVER/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/SERVER/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[01Dec2024 04:45:21.321] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[01Dec2024 04:45:21.322] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[01Dec2024 04:45:21.651] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[01Dec2024 04:45:22.452] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[01Dec2024 04:45:22.482] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[01Dec2024 04:45:22.863] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[01Dec2024 04:45:23.183] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[01Dec2024 04:45:23.902] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[01Dec2024 04:45:24.046] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[01Dec2024 04:45:24.753] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[01Dec2024 04:45:24.813] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[01Dec2024 04:45:24.901] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[01Dec2024 04:45:24.975] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[01Dec2024 04:45:25.018] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[01Dec2024 04:45:25.113] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[01Dec2024 04:45:25.128] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[01Dec2024 04:45:25.818] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[01Dec2024 04:45:25.824] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[01Dec2024 04:45:25.828] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[01Dec2024 04:45:25.840] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[01Dec2024 04:45:26.253] [main/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 7185
+[01Dec2024 04:45:26.254] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 4 threads for parallel mod-loading
+[01Dec2024 04:45:26.259] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader TransformingClassLoader[TRANSFORMER]@1490466745 - got SecureModuleClassLoader[LAYER PLUGIN]@1470772251
+[01Dec2024 04:45:26.262] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[01Dec2024 04:45:26.264] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass net.minecraftforge.forge/net.minecraftforge.common.ForgeMod with TransformingClassLoader[TRANSFORMER]@1490466745
+[01Dec2024 04:45:26.294] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 0.0 from TransformingClassLoader[TRANSFORMER]@1490466745
+[01Dec2024 04:45:26.294] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 53.0.25
+[01Dec2024 04:45:26.295] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 0.0
+[01Dec2024 04:45:26.295] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[01Dec2024 04:45:26.296] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.21.3 from TransformingClassLoader[TRANSFORMER]@1490466745
+[01Dec2024 04:45:26.297] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.21.3
+[01Dec2024 04:45:26.298] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20241025.112443
+[01Dec2024 04:45:26.298] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 53.0.25, for MC 1.21.3 with MCP 20241025.112443
+[01Dec2024 04:45:26.299] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v53.0.25 Initialized
+[01Dec2024 04:45:26.317] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[01Dec2024 04:45:26.334] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[01Dec2024 04:45:26.335] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 21
+[01Dec2024 04:45:26.335] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[01Dec2024 04:45:26.336] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[01Dec2024 04:45:26.338] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[01Dec2024 04:45:26.339] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[01Dec2024 04:45:26.339] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:289) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at TRANSFORMER/net.minecraftforge.forge@53.0.25/net.minecraftforge.network.NetworkInitialization.<clinit>(NetworkInitialization.java:27) ~[forge-1.21.3-53.0.25-universal.jar:?]
+	at TRANSFORMER/net.minecraftforge.forge@53.0.25/net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:379) ~[forge-1.21.3-53.0.25-universal.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.javafmlmod@1.21.3-53.0.25/net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:144) ~[javafmllanguage-1.21.3-53.0.25.jar!/:53.0.25]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.3-53.0.25/net.minecraftforge.fml.ModStateTransitionHelper.lambda$addCompletableFutureTaskForModDispatch$5(ModStateTransitionHelper.java:117) ~[fmlcore-1.21.3-53.0.25.jar!/:1.0]
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[01Dec2024 04:45:26.345] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[01Dec2024 04:45:26.346] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:394) ~[?:?]
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:714) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:571) ~[?:?]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:411) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:402) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at TRANSFORMER/net.minecraftforge.forge@53.0.25/net.minecraftforge.network.NetworkInitialization.<clinit>(NetworkInitialization.java:27) ~[forge-1.21.3-53.0.25-universal.jar:?]
+	at TRANSFORMER/net.minecraftforge.forge@53.0.25/net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:379) ~[forge-1.21.3-53.0.25-universal.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.javafmlmod@1.21.3-53.0.25/net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:144) ~[javafmllanguage-1.21.3-53.0.25.jar!/:53.0.25]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.3-53.0.25/net.minecraftforge.fml.ModStateTransitionHelper.lambda$addCompletableFutureTaskForModDispatch$5(ModStateTransitionHelper.java:117) ~[fmlcore-1.21.3-53.0.25.jar!/:1.0]
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[01Dec2024 04:45:26.347] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[01Dec2024 04:45:26.348] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[01Dec2024 04:45:26.349] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 4190109696 bytes (maybe)
+[01Dec2024 04:45:26.349] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[01Dec2024 04:45:26.349] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[01Dec2024 04:45:26.350] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[01Dec2024 04:45:26.350] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[01Dec2024 04:45:26.351] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[01Dec2024 04:45:26.351] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[01Dec2024 04:45:26.385] [modloading-worker-0/DEBUG] [net.minecraftforge.network.NetworkInitialization/FORGE_NETWORK]: Registering Network forge:login v0
+[01Dec2024 04:45:26.385] [modloading-worker-0/DEBUG] [net.minecraftforge.network.NetworkInitialization/FORGE_NETWORK]: Registering Network forge:handshake v0
+[01Dec2024 04:45:26.385] [modloading-worker-0/DEBUG] [net.minecraftforge.network.NetworkInitialization/FORGE_NETWORK]: Registering Network forge:handshake v0
+[01Dec2024 04:45:26.385] [modloading-worker-0/DEBUG] [net.minecraftforge.network.NetworkInitialization/FORGE_NETWORK]: Registering Network forge:channel_registration v0
+[01Dec2024 04:45:26.422] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[01Dec2024 04:45:26.422] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[01Dec2024 04:45:26.423] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
+[01Dec2024 04:45:26.444] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[01Dec2024 04:45:26.446] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[01Dec2024 04:45:26.641] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+[01Dec2024 04:45:26.644] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+[01Dec2024 04:45:26.644] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+[01Dec2024 04:45:26.644] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+[01Dec2024 04:45:26.886] [main/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[01Dec2024 04:45:26.888] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for /workspaces/SERVER/servidor_minecraft/config/forge-common.toml
+[01Dec2024 04:45:26.889] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file /workspaces/SERVER/servidor_minecraft/config/forge-common.toml
+[01Dec2024 04:45:26.893] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file /workspaces/SERVER/servidor_minecraft/config/forge-common.toml for changes
+[01Dec2024 04:45:26.895] [main/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-common.toml
+[01Dec2024 04:45:27.102] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Dec2024 04:45:27.527] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.42",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.2.0",
+    "1.18.2-latest": "40.2.25",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.4.0",
+    "1.19.2-latest": "43.4.6",
+    "1.19.3-latest": "44.1.23",
+    "1.19.3-recommended": "44.1.0",
+    "1.19.4-recommended": "45.3.0",
+    "1.19.4-latest": "45.3.9",
+    "1.20-latest": "46.0.14",
+    "1.20.1-recommended": "47.3.0",
+    "1.20.1-latest": "47.3.12",
+    "1.20.2-latest": "48.1.0",
+    "1.20.2-recommended": "48.1.0",
+    "1.20.3-latest": "49.0.2",
+    "1.20.4-latest": "49.1.13",
+    "1.20.4-recommended": "49.1.0",
+    "1.20.6-latest": "50.1.23",
+    "1.20.6-recommended": "50.1.0",
+    "1.21-latest": "51.0.33",
+    "1.21.1-latest": "52.0.28",
+    "1.21.3-latest": "53.0.25"
+  }
+}
+[01Dec2024 04:45:27.527] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 53.0.25 Target: 53.0.25
+[01Dec2024 04:45:28.142] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01Dec2024 04:45:28.948] [main/DEBUG] [net.minecraftforge.resource.ResourcePackLoader/CORE]: Generating PackInfo named mod:forge for mod file /workspaces/SERVER/servidor_minecraft/libraries/net/minecraftforge/forge/1.21.3-53.0.25/forge-1.21.3-53.0.25-universal.jar
+[01Dec2024 04:45:30.135] [Worker-Main-3/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/SummonCommand
+[01Dec2024 04:45:30.750] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1337 recipes
+[01Dec2024 04:45:30.769] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1448 advancements
+[01Dec2024 04:45:30.793] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save OneBlock (1.21.3)
+[01Dec2024 04:45:30.806] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete OneBlock (1.21.3)
+[01Dec2024 04:45:30.916] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.3
+[01Dec2024 04:45:30.916] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Dec2024 04:45:30.917] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Dec2024 04:45:30.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Dec2024 04:45:31.025] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Dec2024 04:45:31.026] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[01Dec2024 04:45:31.032] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+[01Dec2024 04:45:31.032] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.deleteLibAfterLoading: true
+[01Dec2024 04:45:31.032] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.tryPatchShadedId: true
+[01Dec2024 04:45:31.032] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.detectNativeLibraryDuplicates: true
+[01Dec2024 04:45:31.041] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: Successfully loaded the library /tmp/libnetty_transport_native_epoll_x86_645731829361811722378.so
+[01Dec2024 04:45:31.044] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[01Dec2024 04:45:31.044] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: true
+[01Dec2024 04:45:31.045] [Server thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[01Dec2024 04:45:31.046] [Server thread/DEBUG] [io.netty.util.NetUtil/]: /proc/sys/net/core/somaxconn: 4096
+[01Dec2024 04:45:31.050] [Server thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 8
+[01Dec2024 04:45:31.056] [Server thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[01Dec2024 04:45:31.061] [Server thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[01Dec2024 04:45:31.061] [Server thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[01Dec2024 04:45:31.070] [Server thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[01Dec2024 04:45:31.073] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[01Dec2024 04:45:31.085] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 21302 (auto-detected)
+[01Dec2024 04:45:31.086] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 60:45:bd:ff:fe:b5:45:7c (auto-detected)
+[01Dec2024 04:45:31.107] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 8
+[01Dec2024 04:45:31.107] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 8
+[01Dec2024 04:45:31.107] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[01Dec2024 04:45:31.107] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[01Dec2024 04:45:31.108] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[01Dec2024 04:45:31.108] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[01Dec2024 04:45:31.108] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[01Dec2024 04:45:31.108] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[01Dec2024 04:45:31.108] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[01Dec2024 04:45:31.108] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[01Dec2024 04:45:31.108] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[01Dec2024 04:45:31.109] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[01Dec2024 04:45:31.115] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[01Dec2024 04:45:31.115] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[01Dec2024 04:45:31.115] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[01Dec2024 04:45:31.123] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01Dec2024 04:45:31.123] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01Dec2024 04:45:31.124] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01Dec2024 04:45:31.124] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01Dec2024 04:45:31.136] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[01Dec2024 04:45:31.136] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for ./world/serverconfig/forge-server.toml
+[01Dec2024 04:45:31.137] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file ./world/serverconfig/forge-server.toml
+[01Dec2024 04:45:31.137] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file ./world/serverconfig/forge-server.toml for changes
+[01Dec2024 04:45:31.137] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[01Dec2024 04:45:31.170] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Dec2024 04:45:31.175] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[01Dec2024 04:45:31.181] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[01Dec2024 04:45:31.185] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[01Dec2024 04:45:31.189] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[01Dec2024 04:45:31.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Dec2024 04:45:31.466] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 04:45:31.548] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 228 ms
+[01Dec2024 04:45:31.549] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.413s)! For help, type "help"
+[01Dec2024 04:45:31.554] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[01Dec2024 04:45:31.560] [Server thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 0
+[01Dec2024 04:45:31.562] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[01Dec2024 04:45:31.607] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[01Dec2024 04:45:31.607] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[01Dec2024 04:45:31.608] [Server thread/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@49d17905
+[01Dec2024 04:45:31.626] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[01Dec2024 04:45:33.806] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[01Dec2024 04:45:33.806] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[01Dec2024 04:45:33.806] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[01Dec2024 04:45:33.806] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[01Dec2024 04:45:33.806] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[01Dec2024 04:45:35.237] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:45:35.237] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:45:35.237] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:45:35.237] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:45:35.241] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@76bb09dc into net.minecraft.network.Connection@4d69857f
+[01Dec2024 04:45:36.742] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AugustoButiDMC[/[::1]:35572] logged in with entity id 2 at (0.5, 61.0, 0.5)
+[01Dec2024 04:45:36.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC joined the game
+[01Dec2024 04:45:40.336] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:45:40.337] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:45:40.337] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:45:40.337] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:45:40.337] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@138881d7 into net.minecraft.network.Connection@17b7077e
+[01Dec2024 04:45:43.233] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:35580] logged in with entity id 4 at (0.5, 61.0, 0.5)
+[01Dec2024 04:45:43.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:45:46.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> no rompan
+[01Dec2024 04:45:47.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> no rompan
+[01Dec2024 04:45:48.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> no rompan
+[01Dec2024 04:45:49.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> a
+[01Dec2024 04:45:50.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> no rompan
+[01Dec2024 04:45:54.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> va
+[01Dec2024 04:46:00.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:01.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:02.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:02.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> no hay pvp no?
+[01Dec2024 04:46:13.513] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:46:13.513] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:46:13.513] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:46:13.513] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:46:13.513] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@403c5d9 into net.minecraft.network.Connection@42b384f5
+[01Dec2024 04:46:14.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> no
+[01Dec2024 04:46:14.671] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leonel21331[/[::1]:49596] logged in with entity id 8 at (0.5, 61.0, 0.5)
+[01Dec2024 04:46:14.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 joined the game
+[01Dec2024 04:46:18.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:18.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:19.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:19.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:23.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:25.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:26.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:27.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:29.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA ES GAY
+[01Dec2024 04:46:45.447] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:46:45.448] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:46:45.448] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:46:45.448] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:46:45.448] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@4c95d436 into net.minecraft.network.Connection@99753c0
+[01Dec2024 04:46:45.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> el q rompe se lo kachan todos
+[01Dec2024 04:46:46.533] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Addry_[/[::1]:55750] logged in with entity id 10 at (0.5, 61.0, 0.5)
+[01Dec2024 04:46:46.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ joined the game
+[01Dec2024 04:46:50.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> XD
+[01Dec2024 04:46:50.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> XD
+[01Dec2024 04:46:52.414] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ was kicked for floating too long!
+[01Dec2024 04:46:52.415] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:46:52.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 04:46:52.464] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[01Dec2024 04:46:53.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> AHJKSFHAJKSFHK+
+[01Dec2024 04:46:54.667] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:46:54.667] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:46:54.668] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:46:54.668] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:46:54.668] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@5b9acd04 into net.minecraft.network.Connection@6e6862d1
+[01Dec2024 04:46:56.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> ROMPAN XD
+[01Dec2024 04:46:57.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> SE CAYO POR ADDRY
+[01Dec2024 04:47:00.580] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:00.580] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:00.580] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:00.580] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:47:00.580] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@46f7ce7 into net.minecraft.network.Connection@631306d5
+[01Dec2024 04:47:02.073] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:59934] logged in with entity id 14 at (0.979943934223998, -127.61295510028846, 0.39624477169043454)
+[01Dec2024 04:47:02.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:47:05.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ fell out of the world
+[01Dec2024 04:47:11.272] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:11.272] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:11.272] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:11.272] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:47:11.272] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@133382d3 into net.minecraft.network.Connection@405c4c1
+[01Dec2024 04:47:12.468] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jp_alexander_10[/[::1]:51218] logged in with entity id 24 at (1.5, 61.0, 0.5)
+[01Dec2024 04:47:12.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 joined the game
+[01Dec2024 04:47:22.546] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:22.546] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:22.546] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:22.546] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:47:22.546] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@590f5707 into net.minecraft.network.Connection@94d5e9c
+[01Dec2024 04:47:23.065] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 was kicked for floating too long!
+[01Dec2024 04:47:23.114] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 lost connection: Flying is not enabled on this server
+[01Dec2024 04:47:23.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 left the game
+[01Dec2024 04:47:24.240] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: orpoteaM25[/[::1]:56686] logged in with entity id 31 at (0.5, 61.0, 0.5)
+[01Dec2024 04:47:24.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: orpoteaM25 joined the game
+[01Dec2024 04:47:26.546] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:26.546] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:26.546] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:26.546] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:47:26.546] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@3ed4210f into net.minecraft.network.Connection@53ed6f59
+[01Dec2024 04:47:27.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> AugustoButiDMC pon contador de muertes
+[01Dec2024 04:47:27.811] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jp_alexander_10[/[::1]:56694] logged in with entity id 32 at (0.3414558893422816, -97.13089557593906, -1.0668509488472193)
+[01Dec2024 04:47:27.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 joined the game
+[01Dec2024 04:47:32.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 fell out of the world
+[01Dec2024 04:47:37.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> ponlo como suelo
+[01Dec2024 04:47:39.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> la mesa
+[01Dec2024 04:47:40.314] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 was kicked for floating too long!
+[01Dec2024 04:47:40.364] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 lost connection: Flying is not enabled on this server
+[01Dec2024 04:47:40.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 left the game
+[01Dec2024 04:47:43.196] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:43.196] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:43.196] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:43.196] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:47:43.196] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@363187e9 into net.minecraft.network.Connection@2112374d
+[01Dec2024 04:47:44.439] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jp_alexander_10[/[::1]:38998] logged in with entity id 52 at (-2.7157072474030794, -104.40554363841729, -0.7152942279495272)
+[01Dec2024 04:47:44.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 joined the game
+[01Dec2024 04:47:48.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 fell out of the world
+[01Dec2024 04:47:55.992] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:55.992] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:55.992] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:47:55.992] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:47:55.992] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@1c1cde26 into net.minecraft.network.Connection@79d8dbc0
+[01Dec2024 04:47:57.800] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: HERBERPRO[/[::1]:57870] logged in with entity id 81 at (-0.5, 61.0, 0.5)
+[01Dec2024 04:47:57.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO joined the game
+[01Dec2024 04:47:58.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> XD
+[01Dec2024 04:47:59.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> ey
+[01Dec2024 04:48:00.014] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ was kicked for floating too long!
+[01Dec2024 04:48:00.064] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:00.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 04:48:02.265] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:02.265] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:02.265] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:02.265] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:48:02.265] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@6d7104d5 into net.minecraft.network.Connection@55852ed4
+[01Dec2024 04:48:03.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jp_alexander_10> xd
+[01Dec2024 04:48:03.578] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:03.578] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:03.578] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:03.578] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:48:03.578] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@2bc92fc5 into net.minecraft.network.Connection@40d3abf
+[01Dec2024 04:48:04.818] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:04.818] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:04.818] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:04.818] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:48:04.819] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@514b598 into net.minecraft.network.Connection@4652133e
+[01Dec2024 04:48:06.935] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:06.935] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:06.935] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:06.935] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:48:06.936] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@1cf43684 into net.minecraft.network.Connection@29449813
+[01Dec2024 04:48:08.489] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:59514] logged in with entity id 86 at (0.12573849025034364, -80.07371160409113, 0.975880085292239)
+[01Dec2024 04:48:08.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:48:11.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> PENDEJO
+[01Dec2024 04:48:11.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> no tiren
+[01Dec2024 04:48:12.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> xdd
+[01Dec2024 04:48:13.115] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ was kicked for floating too long!
+[01Dec2024 04:48:13.164] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:13.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 04:48:13.364] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC was kicked for floating too long!
+[01Dec2024 04:48:13.414] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:13.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC left the game
+[01Dec2024 04:48:14.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> QUIEN FUE
+[01Dec2024 04:48:14.895] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO moved too quickly! 0.0,-21.81521379209127,0.0
+[01Dec2024 04:48:15.948] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:15.948] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:15.948] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:15.948] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:48:15.948] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@7bfd79e6 into net.minecraft.network.Connection@40235712
+[01Dec2024 04:48:16.660] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:16.660] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:16.660] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:16.660] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:48:16.660] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@4b00fd44 into net.minecraft.network.Connection@2eb20f5d
+[01Dec2024 04:48:16.922] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO was kicked for floating too long!
+[01Dec2024 04:48:16.964] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:16.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO left the game
+[01Dec2024 04:48:17.850] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AugustoButiDMC[/[::1]:47062] logged in with entity id 93 at (0.1578692785878838, -132.8166785098648, -1.2347587482061846)
+[01Dec2024 04:48:17.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC joined the game
+[01Dec2024 04:48:18.130] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:18.130] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:18.130] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:18.130] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:48:18.130] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@558f7333 into net.minecraft.network.Connection@37dad940
+[01Dec2024 04:48:19.652] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:47064] logged in with entity id 101 at (0.12573849025034364, -255.39287937476405, 0.975880085292239)
+[01Dec2024 04:48:19.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:48:19.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ fell out of the world
+[01Dec2024 04:48:19.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC fell out of the world
+[01Dec2024 04:48:22.072] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:22.072] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:22.072] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:22.072] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:48:22.072] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@4f9ec59 into net.minecraft.network.Connection@51868ba5
+[01Dec2024 04:48:23.328] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: HERBERPRO[/[::1]:56138] logged in with entity id 116 at (1.914757790000043, -4.757565360663978, -0.7927522774054949)
+[01Dec2024 04:48:23.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO joined the game
+[01Dec2024 04:48:27.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> HIJO DEPUTA
+[01Dec2024 04:48:27.614] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ was kicked for floating too long!
+[01Dec2024 04:48:27.664] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:27.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 04:48:28.116] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO was kicked for floating too long!
+[01Dec2024 04:48:28.167] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:28.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO left the game
+[01Dec2024 04:48:29.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leonel21331 was kicked for floating too long!
+[01Dec2024 04:48:29.164] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leonel21331 lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:29.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 left the game
+[01Dec2024 04:48:29.691] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:29.691] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:29.691] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:29.691] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:48:29.691] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@36b4d2bb into net.minecraft.network.Connection@d9c0250
+[01Dec2024 04:48:30.230] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:30.231] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:30.231] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:30.231] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:48:30.231] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@17d2c142 into net.minecraft.network.Connection@1061100c
+[01Dec2024 04:48:31.500] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: HERBERPRO[/[::1]:56152] logged in with entity id 134 at (1.914757790000043, -193.17524380367303, -0.7927522774054949)
+[01Dec2024 04:48:31.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO joined the game
+[01Dec2024 04:48:31.820] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:31.820] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:31.820] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:31.820] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:48:31.820] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@bc567cb into net.minecraft.network.Connection@586b2595
+[01Dec2024 04:48:32.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
+[01Dec2024 04:48:33.401] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:52810] logged in with entity id 135 at (3.2137699208997583, -101.83340857907594, 1.6302019621878887)
+[01Dec2024 04:48:33.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:48:37.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ fell out of the world
+[01Dec2024 04:48:38.393] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:38.394] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:38.394] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:38.394] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:48:38.394] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@92c1956 into net.minecraft.network.Connection@244e7099
+[01Dec2024 04:48:39.548] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leonel21331[/[::1]:52844] logged in with entity id 138 at (1.2663119276641823, -127.61295510028846, 2.0456859554243714)
+[01Dec2024 04:48:39.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 joined the game
+[01Dec2024 04:48:42.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 fell out of the world
+[01Dec2024 04:48:43.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> tamare
+[01Dec2024 04:48:44.365] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: orpoteaM25 was kicked for floating too long!
+[01Dec2024 04:48:44.415] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: orpoteaM25 lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:44.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: orpoteaM25 left the game
+[01Dec2024 04:48:48.206] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:48.206] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:48.206] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:48.206] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:48:48.206] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@5679f0d6 into net.minecraft.network.Connection@43e0bbc1
+[01Dec2024 04:48:49.420] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: orpoteaM25[/[::1]:50588] logged in with entity id 145 at (1.4231184466765274, -101.83340857907594, 0.5431192820791727)
+[01Dec2024 04:48:49.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: orpoteaM25 joined the game
+[01Dec2024 04:48:50.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> PENDEJO TeNIA MADERA
+[01Dec2024 04:48:52.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> no voten pe
+[01Dec2024 04:48:53.014] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Addry_ was kicked for floating too long!
+[01Dec2024 04:48:53.064] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Addry_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:53.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ left the game
+[01Dec2024 04:48:53.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: orpoteaM25 fell out of the world
+[01Dec2024 04:48:54.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> ey
+[01Dec2024 04:48:55.864] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ was kicked for floating too long!
+[01Dec2024 04:48:55.914] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:48:55.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 04:48:57.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> DESACTIVEN PVVP
+[01Dec2024 04:48:59.985] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:59.985] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:59.985] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:48:59.985] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:48:59.986] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@7b3c57bc into net.minecraft.network.Connection@572948ff
+[01Dec2024 04:49:01.100] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Addry_[/[::1]:45082] logged in with entity id 152 at (-0.5355715357039337, -130.89669973311842, 0.358807394940525)
+[01Dec2024 04:49:01.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ joined the game
+[01Dec2024 04:49:02.877] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:02.877] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:02.877] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:02.877] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:49:02.877] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@6f23028c into net.minecraft.network.Connection@1be148d4
+[01Dec2024 04:49:02.914] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO was kicked for floating too long!
+[01Dec2024 04:49:02.964] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:02.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO left the game
+[01Dec2024 04:49:03.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> tenia un cubo de agua pendejos
+[01Dec2024 04:49:03.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ fell out of the world
+[01Dec2024 04:49:04.347] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:50464] logged in with entity id 160 at (1.2326342644439647, -86.2704982387445, 0.9850082906476254)
+[01Dec2024 04:49:04.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:49:04.937] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:04.937] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:04.937] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:04.937] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:49:04.937] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@5266b39b into net.minecraft.network.Connection@379d64de
+[01Dec2024 04:49:06.214] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:06.214] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:06.214] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:06.214] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:49:06.214] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@34e81b6f into net.minecraft.network.Connection@590b1120
+[01Dec2024 04:49:06.227] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: HERBERPRO[/[::1]:50468] logged in with entity id 163 at (6.958226042917219, -101.83340857907594, 7.625267025196755)
+[01Dec2024 04:49:06.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO joined the game
+[01Dec2024 04:49:07.434] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jxvilla_[/[::1]:50494] logged in with entity id 164 at (-0.5, 61.0, 0.5)
+[01Dec2024 04:49:07.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ joined the game
+[01Dec2024 04:49:08.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> IDIOTAS
+[01Dec2024 04:49:08.814] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ was kicked for floating too long!
+[01Dec2024 04:49:08.864] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:08.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 04:49:10.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
+[01Dec2024 04:49:18.997] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:18.997] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:18.997] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:18.997] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:49:18.997] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@47f759a into net.minecraft.network.Connection@449ccef2
+[01Dec2024 04:49:20.592] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:58616] logged in with entity id 174 at (1.2326342644439647, -251.2315024766734, 0.9850082906476254)
+[01Dec2024 04:49:20.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:49:20.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ fell out of the world
+[01Dec2024 04:49:31.064] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Addry_ was kicked for floating too long!
+[01Dec2024 04:49:31.114] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Addry_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:31.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ left the game
+[01Dec2024 04:49:33.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> ORPO PQ ROMPES
+[01Dec2024 04:49:33.264] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC was kicked for floating too long!
+[01Dec2024 04:49:33.314] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:33.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC left the game
+[01Dec2024 04:49:35.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 was kicked for floating too long!
+[01Dec2024 04:49:35.164] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:35.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 left the game
+[01Dec2024 04:49:36.933] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:36.933] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:36.933] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:36.933] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:49:36.933] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@19beb3fc into net.minecraft.network.Connection@6107cffa
+[01Dec2024 04:49:38.016] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Addry_[/[::1]:51670] logged in with entity id 185 at (0.618698737623897, -108.19263605860135, 2.425174069020142)
+[01Dec2024 04:49:38.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ joined the game
+[01Dec2024 04:49:38.489] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:38.490] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:38.490] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:38.490] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:49:38.490] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@2e98afd4 into net.minecraft.network.Connection@1f5edec6
+[01Dec2024 04:49:39.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jxvilla_ was kicked for floating too long!
+[01Dec2024 04:49:39.164] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jxvilla_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:39.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ left the game
+[01Dec2024 04:49:39.713] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jp_alexander_10[/[::1]:51688] logged in with entity id 186 at (5.463328840566998, -108.19263605860135, -2.869201227319146)
+[01Dec2024 04:49:39.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 joined the game
+[01Dec2024 04:49:41.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> ORPO ESTA ROMPEIDNO
+[01Dec2024 04:49:42.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ fell out of the world
+[01Dec2024 04:49:42.220] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:42.220] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:42.220] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:42.220] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:49:42.220] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@15841bc9 into net.minecraft.network.Connection@21650de2
+[01Dec2024 04:49:43.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 fell out of the world
+[01Dec2024 04:49:45.015] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: orpoteaM25 was kicked for floating too long!
+[01Dec2024 04:49:45.064] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: orpoteaM25 lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:45.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: orpoteaM25 left the game
+[01Dec2024 04:49:47.426] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:47.426] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:47.426] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:47.426] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:49:47.426] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@1ecac0f2 into net.minecraft.network.Connection@1b45ac42
+[01Dec2024 04:49:48.367] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:48.367] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:48.367] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:48.367] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:49:48.367] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@31e66e39 into net.minecraft.network.Connection@1c9a8a6b
+[01Dec2024 04:49:48.862] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:48.862] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:48.862] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:48.863] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:49:48.863] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@19c39d32 into net.minecraft.network.Connection@3c631960
+[01Dec2024 04:49:48.918] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: prueba2Tlauncher[/[::1]:33970] logged in with entity id 200 at (0.5, 61.0, -0.5)
+[01Dec2024 04:49:48.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: prueba2Tlauncher joined the game
+[01Dec2024 04:49:49.628] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: orpoteaM25[/[::1]:34000] logged in with entity id 202 at (0.9035588305999224, -140.22327173792834, 1.5780819306241882)
+[01Dec2024 04:49:49.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: orpoteaM25 joined the game
+[01Dec2024 04:49:49.914] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jxvilla_[/[::1]:34014] logged in with entity id 203 at (0.7781496495196655, -86.2079982387445, 2.3992344863663946)
+[01Dec2024 04:49:49.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ joined the game
+[01Dec2024 04:49:51.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: orpoteaM25 fell out of the world
+[01Dec2024 04:49:54.314] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jxvilla_ was kicked for floating too long!
+[01Dec2024 04:49:54.364] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jxvilla_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:54.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ left the game
+[01Dec2024 04:49:55.827] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:55.827] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:55.827] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:55.827] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:49:55.827] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@6a96361f into net.minecraft.network.Connection@1da87d64
+[01Dec2024 04:49:56.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> ORPO ESTA ROMPIENDO
+[01Dec2024 04:49:56.473] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: prueba2Tlauncher moved wrongly!
+[01Dec2024 04:49:56.565] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leonel21331 was kicked for floating too long!
+[01Dec2024 04:49:56.615] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leonel21331 lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:56.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 left the game
+[01Dec2024 04:49:56.864] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Addry_ was kicked for floating too long!
+[01Dec2024 04:49:56.915] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Addry_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:49:56.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ left the game
+[01Dec2024 04:49:59.637] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:59.637] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:59.637] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:49:59.637] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:49:59.637] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@f6aff4c into net.minecraft.network.Connection@75140c72
+[01Dec2024 04:49:59.685] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ moved too quickly! 0.0,-18.188965084838074,0.0
+[01Dec2024 04:50:00.060] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:00.060] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:00.060] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:00.060] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:50:00.060] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@2c970c4 into net.minecraft.network.Connection@7547d1d4
+[01Dec2024 04:50:00.564] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ was kicked for floating too long!
+[01Dec2024 04:50:00.614] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:50:00.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 04:50:00.778] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leonel21331[/[::1]:56126] logged in with entity id 215 at (0.9874155636380529, -83.13224017721774, -2.1532626038747593)
+[01Dec2024 04:50:00.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 joined the game
+[01Dec2024 04:50:01.107] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jxvilla_[/[::1]:56132] logged in with entity id 216 at (0.7781496495196655, -247.62700783781196, 2.3992344863663946)
+[01Dec2024 04:50:01.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ joined the game
+[01Dec2024 04:50:01.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ fell out of the world
+[01Dec2024 04:50:01.314] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 was kicked for floating too long!
+[01Dec2024 04:50:01.364] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 lost connection: Flying is not enabled on this server
+[01Dec2024 04:50:01.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 left the game
+[01Dec2024 04:50:01.814] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: prueba2Tlauncher was kicked for floating too long!
+[01Dec2024 04:50:01.864] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: prueba2Tlauncher lost connection: Flying is not enabled on this server
+[01Dec2024 04:50:01.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: prueba2Tlauncher left the game
+[01Dec2024 04:50:03.691] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:03.691] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:03.691] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:03.691] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:50:03.691] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@174ff3fa into net.minecraft.network.Connection@5f2832c9
+[01Dec2024 04:50:03.734] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:03.734] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:03.734] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:03.734] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:50:03.734] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@469b7e6b into net.minecraft.network.Connection@1d669e69
+[01Dec2024 04:50:04.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> DEJEN DE ROMPES
+[01Dec2024 04:50:04.812] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Addry_[/[::1]:60818] logged in with entity id 218 at (1.0472844852438077, -101.83340857907594, -0.4716272816113444)
+[01Dec2024 04:50:04.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ joined the game
+[01Dec2024 04:50:04.852] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:04.852] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jp_alexander_10[/[::1]:60806] logged in with entity id 219 at (0.510163293239266, -127.31295510028846, 1.4353710775100637)
+[01Dec2024 04:50:04.852] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:04.853] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:04.853] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:50:04.853] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@725b4492 into net.minecraft.network.Connection@7bd84d26
+[01Dec2024 04:50:04.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 joined the game
+[01Dec2024 04:50:05.215] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leonel21331 was kicked for floating too long!
+[01Dec2024 04:50:05.255] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:05.255] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:05.255] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:05.255] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:50:05.255] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@125c3ac2 into net.minecraft.network.Connection@33fae175
+[01Dec2024 04:50:05.264] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leonel21331 lost connection: Flying is not enabled on this server
+[01Dec2024 04:50:05.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 left the game
+[01Dec2024 04:50:05.981] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: prueba2Tlauncher[/[::1]:60834] logged in with entity id 220 at (2.829091993590476, -111.09438669269659, -1.8242110015472772)
+[01Dec2024 04:50:05.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: prueba2Tlauncher joined the game
+[01Dec2024 04:50:06.764] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:60842] logged in with entity id 221 at (0.8379057227524866, -86.59558523106475, -0.024303354961128322)
+[01Dec2024 04:50:06.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:50:07.571] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:07.571] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:07.571] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:07.571] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:50:07.571] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@a878f02 into net.minecraft.network.Connection@700ece00
+[01Dec2024 04:50:07.843] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:07.843] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:07.843] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:07.843] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:50:07.843] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@45ee120c into net.minecraft.network.Connection@11d7a3ec
+[01Dec2024 04:50:07.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 fell out of the world
+[01Dec2024 04:50:08.853] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AugustoButiDMC[/[::1]:60856] logged in with entity id 224 at (1.4303836554726341, -65.05207208453308, 2.0365185645232557)
+[01Dec2024 04:50:08.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC joined the game
+[01Dec2024 04:50:09.002] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leonel21331[/[::1]:60862] logged in with entity id 225 at (0.9874155636380529, -245.96323032361843, -2.1532626038747593)
+[01Dec2024 04:50:09.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 joined the game
+[01Dec2024 04:50:09.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 fell out of the world
+[01Dec2024 04:50:09.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ fell out of the world
+[01Dec2024 04:50:09.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: prueba2Tlauncher fell out of the world
+[01Dec2024 04:50:11.214] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ was kicked for floating too long!
+[01Dec2024 04:50:11.270] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:50:11.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 04:50:13.464] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC was kicked for floating too long!
+[01Dec2024 04:50:13.514] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC lost connection: Flying is not enabled on this server
+[01Dec2024 04:50:13.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC left the game
+[01Dec2024 04:50:13.827] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:13.827] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:13.827] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:13.827] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:50:13.827] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@7f4bec62 into net.minecraft.network.Connection@4c761d35
+[01Dec2024 04:50:13.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> OE Q IDIOTA ROMPE LA MIERDA
+[01Dec2024 04:50:15.726] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:15.726] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:15.726] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:15.727] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:50:15.727] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@7b3455e8 into net.minecraft.network.Connection@7065062c
+[01Dec2024 04:50:18.195] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:18.196] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:18.196] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:18.196] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:50:18.196] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@4410103a into net.minecraft.network.Connection@6f658a0a
+[01Dec2024 04:50:19.701] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 2103_[/[::1]:50718] logged in with entity id 235 at (0.8379057227524866, -249.42657537746544, -0.024303354961128322)
+[01Dec2024 04:50:19.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ joined the game
+[01Dec2024 04:50:19.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ fell out of the world
+[01Dec2024 04:50:25.713] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:25.713] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:25.713] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:50:25.713] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:50:25.713] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@34aa3a39 into net.minecraft.network.Connection@2315adfe
+[01Dec2024 04:50:26.963] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AugustoButiDMC[/[::1]:59354] logged in with entity id 244 at (1.4303836554726341, -244.28174010165344, 2.0365185645232557)
+[01Dec2024 04:50:26.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC joined the game
+[01Dec2024 04:50:27.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC fell out of the world
+[01Dec2024 04:50:28.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> NO SABEN PONER
+[01Dec2024 04:50:31.564] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save OneBlock (1.21.3)
+[01Dec2024 04:50:31.593] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete OneBlock (1.21.3)
+[01Dec2024 04:50:34.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> HAGAN LOSAS
+[01Dec2024 04:50:43.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> el que rompa ban
+[01Dec2024 04:50:46.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> addry no etoy invitado el evento a bewwaars :(
+[01Dec2024 04:50:55.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> EL QUE ROMPA BAN
+[01Dec2024 04:51:02.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> no me voten
+[01Dec2024 04:51:04.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> tengo semilla
+[01Dec2024 04:51:05.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jxvilla_> con slab pongan suelo
+[01Dec2024 04:51:18.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> no maten a la polla
+[01Dec2024 04:51:30.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> CUIDENLA
+[01Dec2024 04:51:49.196] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:51:49.196] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:51:49.196] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:51:49.196] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:51:49.196] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@cb4fb99 into net.minecraft.network.Connection@4fe609be
+[01Dec2024 04:51:50.609] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Astrom32[/[::1]:46242] logged in with entity id 312 at (5.5, 61.0, 0.5)
+[01Dec2024 04:51:50.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Astrom32 joined the game
+[01Dec2024 04:51:51.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> no la tiren
+[01Dec2024 04:51:59.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> YA TIRARON EL AGUA Q MAS QUERES
+[01Dec2024 04:52:04.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> ya ta
+[01Dec2024 04:52:04.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> el mismo dueño la tira
+[01Dec2024 04:52:08.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> addry no estoy invitado en el evento de bewwars :(
+[01Dec2024 04:52:11.897] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:52:11.897] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:52:11.897] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:52:11.897] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:52:11.897] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@7dfacda1 into net.minecraft.network.Connection@199f89e
+[01Dec2024 04:52:19.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <prueba2Tlauncher> que uno chambe y todos construyen
+[01Dec2024 04:52:22.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> y ese autoclick
+[01Dec2024 04:52:28.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <prueba2Tlauncher> yo chambeo
+[01Dec2024 04:52:33.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> yo chambeo
+[01Dec2024 04:52:41.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <prueba2Tlauncher> solo 2
+[01Dec2024 04:52:41.916] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Light7 (/[::1]:41660) lost connection: Timed out
+[01Dec2024 04:52:44.656] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:52:44.656] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:52:44.656] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:52:44.657] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:52:44.657] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@22378ca4 into net.minecraft.network.Connection@9e4f486
+[01Dec2024 04:52:46.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jxvilla_> addry de cuantas personas en team es el evento de bedwars
+[01Dec2024 04:52:48.241] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:52:48.242] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:52:48.242] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:52:48.242] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:52:48.242] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@92f1438 into net.minecraft.network.Connection@17643095
+[01Dec2024 04:52:50.491] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Light7[/[::1]:38208] logged in with entity id 345 at (0.5, 61.0, -3.5)
+[01Dec2024 04:52:50.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 joined the game
+[01Dec2024 04:52:54.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> OE
+[01Dec2024 04:52:55.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> LA VACA
+[01Dec2024 04:52:55.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> no la VOTEN
+[01Dec2024 04:52:57.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> YA PE
+[01Dec2024 04:53:01.068] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@38b342e3[id=50d0ae01-144f-398f-9b4a-1aa57a020e64,name=Light7,properties={}] lost connection: Timed out
+[01Dec2024 04:53:04.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> EL PRUEBA2
+[01Dec2024 04:53:07.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> FUE PRUEBA2
+[01Dec2024 04:53:09.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> VOTENLO
+[01Dec2024 04:53:14.164] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: prueba2Tlauncher lost connection: You are banned from this server
+[01Dec2024 04:53:14.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: prueba2Tlauncher left the game
+[01Dec2024 04:53:16.614] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:16.614] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:16.614] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:16.614] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:53:16.614] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@3eae5075 into net.minecraft.network.Connection@572c2c
+[01Dec2024 04:53:16.615] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting prueba2Tlauncher (/[::1]:60810): You are banned from this server.
+Reason: Banned by an operator.
+[01Dec2024 04:53:16.616] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: prueba2Tlauncher (/[::1]:60810) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[01Dec2024 04:53:16.665] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[01Dec2024 04:53:24.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> astrom
+[01Dec2024 04:53:27.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> me salgo de tu torneo a
+[01Dec2024 04:53:29.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> ya pee
+[01Dec2024 04:53:31.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> las semillas
+[01Dec2024 04:53:33.493] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:33.493] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:33.493] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:33.493] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:53:33.493] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@40064aa7 into net.minecraft.network.Connection@e951731
+[01Dec2024 04:53:33.515] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting prueba2Tlauncher (/[::1]:41880): You are banned from this server.
+Reason: Banned by an operator.
+[01Dec2024 04:53:33.516] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: prueba2Tlauncher (/[::1]:41880) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[01Dec2024 04:53:33.565] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[01Dec2024 04:53:34.864] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Addry_ was kicked for floating too long!
+[01Dec2024 04:53:34.915] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Addry_ lost connection: Flying is not enabled on this server
+[01Dec2024 04:53:34.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ left the game
+[01Dec2024 04:53:40.664] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 was kicked for floating too long!
+[01Dec2024 04:53:40.714] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 lost connection: Flying is not enabled on this server
+[01Dec2024 04:53:40.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 left the game
+[01Dec2024 04:53:42.969] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:42.969] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:42.969] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:42.969] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:53:42.969] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@49c74b05 into net.minecraft.network.Connection@6d8af19a
+[01Dec2024 04:53:44.129] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jp_alexander_10[/[::1]:59376] logged in with entity id 400 at (-13.224376587544162, -132.8166785098648, 7.010640996922813)
+[01Dec2024 04:53:44.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 joined the game
+[01Dec2024 04:53:46.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 fell out of the world
+[01Dec2024 04:53:49.216] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:49.217] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:49.217] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:49.217] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:53:49.217] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@5f43f25e into net.minecraft.network.Connection@3f1643b2
+[01Dec2024 04:53:49.265] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting prueba2Tlauncher (/[::1]:59412): You are banned from this server.
+Reason: Banned by an operator.
+[01Dec2024 04:53:49.265] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: prueba2Tlauncher (/[::1]:59412) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[01Dec2024 04:53:49.315] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[01Dec2024 04:53:50.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> ya pe
+[01Dec2024 04:53:50.258] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:50.258] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:50.258] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:50.258] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:53:50.259] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@11bc5609 into net.minecraft.network.Connection@49d024b0
+[01Dec2024 04:53:50.314] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jxvilla_ lost connection: You logged in from another location
+[01Dec2024 04:53:50.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ left the game
+[01Dec2024 04:53:51.063] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:51.063] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:51.063] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:53:51.063] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:53:51.063] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@1c6e4bf2 into net.minecraft.network.Connection@6e4f79aa
+[01Dec2024 04:53:51.352] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jxvilla_[/[::1]:59426] logged in with entity id 412 at (0.7010953475215862, 61.0, -4.4962825340045764)
+[01Dec2024 04:53:51.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ joined the game
+[01Dec2024 04:53:52.111] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Addry_[/[::1]:45882] logged in with entity id 413 at (-0.9588156316093728, -127.61295510028846, -1.4173102381716587)
+[01Dec2024 04:53:52.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ joined the game
+[01Dec2024 04:53:55.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Addry_ fell out of the world
+[01Dec2024 04:53:56.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> ahora pe
+[01Dec2024 04:53:58.165] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Astrom32 was kicked for floating too long!
+[01Dec2024 04:53:58.215] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Astrom32 lost connection: Flying is not enabled on this server
+[01Dec2024 04:53:58.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Astrom32 left the game
+[01Dec2024 04:54:00.368] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:00.368] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:00.368] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:00.368] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:54:00.368] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@75d9864d into net.minecraft.network.Connection@3553ac39
+[01Dec2024 04:54:01.955] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:01.955] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:01.955] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:01.955] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:54:01.955] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@6039bda3 into net.minecraft.network.Connection@53da0b0
+[01Dec2024 04:54:02.988] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:02.988] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:02.988] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:02.988] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:54:02.988] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@48251a3 into net.minecraft.network.Connection@1b422f73
+[01Dec2024 04:54:06.090] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:06.090] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:06.091] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:06.091] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:54:06.091] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@74fdf321 into net.minecraft.network.Connection@1c5c7d10
+[01Dec2024 04:54:07.202] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Astrom32[/[::1]:41996] logged in with entity id 437 at (1.8139406659267157, -132.8166785098648, -3.100609428940522)
+[01Dec2024 04:54:07.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Astrom32 joined the game
+[01Dec2024 04:54:09.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Astrom32 fell out of the world
+[01Dec2024 04:54:09.648] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Astrom32 moved too quickly! 0.0,-13.13593262191668,0.0
+[01Dec2024 04:54:12.215] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 was kicked for floating too long!
+[01Dec2024 04:54:12.264] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 lost connection: Flying is not enabled on this server
+[01Dec2024 04:54:12.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 left the game
+[01Dec2024 04:54:14.374] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:14.374] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:14.374] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:14.374] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:54:14.374] [Netty Epoll Server IO #0/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@6c7f4a8 into net.minecraft.network.Connection@5d250155
+[01Dec2024 04:54:14.773] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:14.774] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:14.774] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 04:54:14.774] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 04:54:14.774] [Netty Epoll Server IO #1/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@2301a515 into net.minecraft.network.Connection@471c73c5
+[01Dec2024 04:54:14.815] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting prueba2Tlauncher (/[::1]:49670): You are banned from this server.
+Reason: Banned by an operator.
+[01Dec2024 04:54:14.816] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: prueba2Tlauncher (/[::1]:49670) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[01Dec2024 04:54:14.867] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[01Dec2024 04:54:15.534] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jp_alexander_10[/[::1]:49658] logged in with entity id 458 at (-0.04958830112491992, -101.83340857907594, 0.7582634646919737)
+[01Dec2024 04:54:15.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 joined the game
+[01Dec2024 04:54:19.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 fell out of the world
+[01Dec2024 04:54:30.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jxvilla_> Addry_ en el evento de bedwars de cuantas personas en team se puede
+[01Dec2024 04:54:32.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> tamare
+[01Dec2024 04:54:45.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> el q consiga agua que me la de para las semillas
+[01Dec2024 04:55:15.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> oe Jp_alexander_10
+[01Dec2024 04:55:17.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> OE
+[01Dec2024 04:55:20.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jp_alexander_10> Q
+[01Dec2024 04:55:20.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> LIGHT MATO UNA OVEAJ
+[01Dec2024 04:55:23.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> buti
+[01Dec2024 04:55:23.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> BUTI
+[01Dec2024 04:55:24.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <orpoteaM25> damela
