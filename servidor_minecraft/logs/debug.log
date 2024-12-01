@@ -1216,3 +1216,8 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [01Dec2024 07:16:34.548] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [01Dec2024 07:21:34.536] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [01Dec2024 07:21:34.539] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Dec2024 07:24:23.925] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC lost connection: Timed out
+[01Dec2024 07:24:23.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC left the game
+[01Dec2024 07:25:23.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[01Dec2024 07:25:23.925] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Dec2024 07:25:23.928] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
