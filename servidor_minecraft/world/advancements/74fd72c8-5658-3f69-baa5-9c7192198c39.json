@@ -155,6 +155,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2024-12-01 06:05:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-12-01 05:26:14 +0000"
@@ -212,6 +218,12 @@
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2024-12-01 05:13:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2024-12-01 06:05:01 +0000"
     },
     "done": true
   },
@@ -365,6 +377,12 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:soul_sand_valley": "2024-12-01 06:10:15 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/polished_diorite": {
     "criteria": {
       "has_diorite": "2024-12-01 05:33:37 +0000"
@@ -404,6 +422,12 @@
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-01 05:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-12-01 06:10:14 +0000"
     },
     "done": true
   },
@@ -611,6 +635,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-12-01 06:10:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2024-12-01 05:13:51 +0000"
@@ -764,6 +794,12 @@
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2024-12-01 05:16:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2024-12-01 06:08:16 +0000"
     },
     "done": true
   },
@@ -1079,8 +1115,10 @@
     "criteria": {
       "minecraft:flower_forest": "2024-12-01 05:12:38 +0000",
       "minecraft:beach": "2024-12-01 05:43:05 +0000",
+      "minecraft:forest": "2024-12-01 06:03:45 +0000",
       "minecraft:river": "2024-12-01 05:35:46 +0000",
       "minecraft:meadow": "2024-12-01 05:26:41 +0000",
+      "minecraft:dripstone_caves": "2024-12-01 06:07:39 +0000",
       "minecraft:savanna": "2024-12-01 05:31:03 +0000",
       "minecraft:plains": "2024-12-01 05:12:10 +0000"
     },
@@ -1414,6 +1452,12 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2024-12-01 05:17:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2024-12-01 06:05:01 +0000"
     },
     "done": true
   },

@@ -1054,3 +1054,75 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [01Dec2024 06:01:01.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <jxvilla_> esa suerte
 [01Dec2024 06:01:05.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> ala bestia
 [01Dec2024 06:01:16.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> ç
+[01Dec2024 06:01:34.636] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Dec2024 06:01:34.643] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Dec2024 06:01:45.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> Light vas solo nomas
+[01Dec2024 06:01:50.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> si quieres te digo donde encuentras diamantes xd
+[01Dec2024 06:01:51.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> xd
+[01Dec2024 06:01:55.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> dale
+[01Dec2024 06:01:58.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> YA MIRA
+[01Dec2024 06:02:00.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> SI BAJAS FULL ABAJO
+[01Dec2024 06:02:02.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> CUEVASA
+[01Dec2024 06:02:05.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> ESQUELETOS
+[01Dec2024 06:02:08.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> esta?
+[01Dec2024 06:02:18.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> no pero donde estabas
+[01Dec2024 06:02:24.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> si vas full abajoa
+[01Dec2024 06:02:27.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> te encuentras esqueletos xd
+[01Dec2024 06:02:30.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> por eso esta conectada
+[01Dec2024 06:02:34.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> de hay escap
+[01Dec2024 06:02:39.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> o me pongo x ray :V?
+[01Dec2024 06:02:42.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> xd
+[01Dec2024 06:03:01.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> sera mejor si no te pones xray
+[01Dec2024 06:03:07.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> ya
+[01Dec2024 06:03:19.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> entonces me lo instalo por las puras xd
+[01Dec2024 06:03:27.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> me falta madera
+[01Dec2024 06:03:50.491] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leonel21331 lost connection: Timed out
+[01Dec2024 06:03:50.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 left the game
+[01Dec2024 06:05:10.541] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 06:05:10.541] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 06:05:10.541] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 06:05:10.541] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 06:05:10.541] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@3ee8f7 into net.minecraft.network.Connection@5d6a7e74
+[01Dec2024 06:05:11.709] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Leonel21331[/[::1]:46480] logged in with entity id 49635 at (-330.0239067541622, 70.0, 263.5368640854238)
+[01Dec2024 06:05:11.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 joined the game
+[01Dec2024 06:05:31.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> mejor yo les creo un server chavales
+[01Dec2024 06:05:34.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> mas tryhard
+[01Dec2024 06:05:40.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> calla
+[01Dec2024 06:05:44.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> y juega
+[01Dec2024 06:05:45.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> mi pene dile eso
+[01Dec2024 06:05:48.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> SSI ME MORI
+[01Dec2024 06:05:49.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> COMO JUEGo
+[01Dec2024 06:05:52.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> JUEGA CON MI PENE
+[01Dec2024 06:06:00.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> malo
+[01Dec2024 06:06:04.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> malo dle a mi pene
+[01Dec2024 06:06:05.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Leonel21331> bay
+[01Dec2024 06:06:14.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 was slain by Spider
+[01Dec2024 06:06:17.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> xd
+[01Dec2024 06:06:24.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> ya me mori
+[01Dec2024 06:06:26.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> oe que te gusta el pene tanto lo piensas
+[01Dec2024 06:06:26.935] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Leonel21331 lost connection: Timed out
+[01Dec2024 06:06:26.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leonel21331 left the game
+[01Dec2024 06:06:27.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> XD
+[01Dec2024 06:06:29.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> por irme a lo loco
+[01Dec2024 06:06:33.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> }
+[01Dec2024 06:06:34.592] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Dec2024 06:06:34.597] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Dec2024 06:07:00.985] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Light7 lost connection: Timed out
+[01Dec2024 06:07:00.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 left the game
+[01Dec2024 06:07:38.836] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jxvilla_ lost connection: Timed out
+[01Dec2024 06:07:38.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jxvilla_ left the game
+[01Dec2024 06:08:16.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ has made the advancement [Cover Me with Diamonds]
+[01Dec2024 06:08:27.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 has made the advancement [Enchanter]
+[01Dec2024 06:09:16.495] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 06:09:16.495] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 06:09:16.495] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Vanilla acceptance test: ACCEPTED
+[01Dec2024 06:09:16.495] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[01Dec2024 06:09:16.496] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.VanillaConnectionNetworkFilter@18bf4a55 into net.minecraft.network.Connection@2ec7b792
+[01Dec2024 06:09:23.433] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AugustoButiDMC[/[::1]:46392] logged in with entity id 52416 at (-662.2036558092117, 92.84568609820086, 1319.300000011921)
+[01Dec2024 06:09:23.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC joined the game
+[01Dec2024 06:09:58.355] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/45838, l='ServerLevel[world]', x=-908.64, y=79.00, z=1111.44] died, message: 'Librarian was slain by Jp_alexander_10'
+[01Dec2024 06:10:14.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ has made the advancement [We Need to Go Deeper]
+[01Dec2024 06:11:08.539] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC lost connection: Timed out
+[01Dec2024 06:11:08.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC left the game
+[01Dec2024 06:11:34.561] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Dec2024 06:11:34.566] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
