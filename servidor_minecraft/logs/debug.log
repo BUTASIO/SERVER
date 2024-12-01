@@ -1165,3 +1165,38 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [01Dec2024 06:21:34.567] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [01Dec2024 06:21:36.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> y no me mato
 [01Dec2024 06:21:41.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jp_alexander_10> xddd
+[01Dec2024 06:22:04.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jp_alexander_10> pvp buti
+[01Dec2024 06:22:13.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> sin creativo
+[01Dec2024 06:22:23.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jp_alexander_10> aja
+[01Dec2024 06:22:32.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> crea server y es corrupto
+[01Dec2024 06:22:41.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 has made the advancement [What a Deal!]
+[01Dec2024 06:22:43.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> todo porque murio addry
+[01Dec2024 06:22:43.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jp_alexander_10> xdd
+[01Dec2024 06:22:56.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jp_alexander_10> PVP BUTI
+[01Dec2024 06:23:07.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> se paro el tiempo o soy yo?
+[01Dec2024 06:23:35.349] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-912, y=79, z=1086} BlockPos{x=-913, y=79, z=1087}
+[01Dec2024 06:25:28.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jp_alexander_10> buti pvp
+[01Dec2024 06:25:31.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jp_alexander_10> buti
+[01Dec2024 06:25:34.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> esta afk
+[01Dec2024 06:25:35.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jp_alexander_10> buti
+[01Dec2024 06:25:38.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jp_alexander_10> lol
+[01Dec2024 06:26:00.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 has made the advancement [We Need to Go Deeper]
+[01Dec2024 06:26:29.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 has made the advancement [Not Today, Thank You]
+[01Dec2024 06:26:34.557] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Dec2024 06:26:34.563] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Dec2024 06:27:25.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> oe falta buti pero esta afk
+[01Dec2024 06:27:42.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jp_alexander_10> sisi
+[01Dec2024 06:27:56.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> yo me voy este ya mato el sv
+[01Dec2024 06:28:24.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> caho
+[01Dec2024 06:28:26.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <2103_> chao
+[01Dec2024 06:28:32.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jp_alexander_10> bye
+[01Dec2024 06:29:02.229] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 2103_ lost connection: Timed out
+[01Dec2024 06:29:02.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2103_ left the game
+[01Dec2024 06:29:04.630] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jp_alexander_10 lost connection: Timed out
+[01Dec2024 06:29:04.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jp_alexander_10 left the game
+[01Dec2024 06:31:34.541] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Dec2024 06:31:34.547] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Dec2024 06:36:34.538] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Dec2024 06:36:34.545] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Dec2024 06:41:34.537] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Dec2024 06:41:34.542] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
